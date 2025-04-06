@@ -15,8 +15,8 @@ def bubble_sort(lista):
     return lista
 
 
-lista = util.gera_lista_aleatoria(20,40)
-print("Lista desordenada:", lista)
+lista = util.gera_lista_aleatoria(300, 400)
+# print("Lista desordenada:", lista)
 
 lista_ordenada = bubble_sort(lista)
-print("Lista ordenada:", lista_ordenada)
+# print("Lista ordenada:", lista_ordenada)
