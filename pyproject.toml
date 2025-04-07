@@ -1,0 +1,15 @@
+[project]
+name = "cursoalgoritmos-fontes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bigtree[image]>=0.25.4",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.4",
+]
+
