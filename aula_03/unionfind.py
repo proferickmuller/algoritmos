@@ -23,22 +23,22 @@ class DisjointSetUnion:
 
     def is_conectado(self, x, y):
         return self.encontrar(x) == self.encontrar(y)
-    
-       
+
+
 dsu = DisjointSetUnion(10)
 
-# Perform some unions
+# Criando alguns itens
 dsu.unir(1, 2)
 dsu.unir(2, 3)
 dsu.unir(4, 5)
 dsu.unir(6, 7)
 dsu.unir(5, 6)
 
-# Check if elements are connected
+# Vendo se os elementos estão conectados
 print(dsu.is_conectado(1, 3))
 print(dsu.is_conectado(4, 7))
 print(dsu.is_conectado(0, 9))
 
-# Find the root of an element
-print(dsu.encontrar(3))  
-print(dsu.encontrar(7))  
+# Encontrando o root de um elemento
+print(dsu.encontrar(3))
+print(dsu.encontrar(7))
